@@ -66,3 +66,65 @@
     }
   }
 }
+
+.header {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  .text-block {
+    width: 45%;
+    height: 100%;
+    margin-top: 70px;
+    h1 {
+      font-size: 6rem;
+      font-weight: 700;
+      text-align: center;
+      padding-bottom: 20px;
+      color: rgb(61, 61, 61);
+    }
+    h4 {
+      padding: 20px 0;
+      text-align: center;
+      font-size: 22px;
+    }
+    .email-signup {
+      margin-top: 50px;
+      text-align: center;
+      position: relative;
+      font-size: 14px;
+      input {
+        height: 50px;
+        width: 400px;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+        box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
+        -moz-box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
+      &:focus {
+        outline: none;
+      }
+      }
+      button {
+        position: absolute;
+        top: 5px;
+        left: 400px;
+        width: 100px;
+        height: 40px;
+        background-color: #ff6682;
+        border-radius: 10px;
+        border: none;
+        font-size: 16px;
+        color: white;
+      }
+    }
+    h5 {
+      margin-top: 30px;
+      text-align: center;
+      color: #98969c;
+    }
+  }
+}
