@@ -77,13 +77,13 @@
   .text-block {
     width: 45%;
     height: 100%;
-    margin-top: 70px;
+    margin-top: 150px;
     h1 {
       font-size: 6rem;
       font-weight: 700;
       text-align: center;
       padding-bottom: 20px;
-      color: rgb(61, 61, 61);
+      color: rgb(48, 48, 48);
     }
     h4 {
       padding: 20px 0;
@@ -93,25 +93,29 @@
     .email-signup {
       margin-top: 50px;
       text-align: center;
-      position: relative;
+      display: flex;
+      flex-direction: row;
       font-size: 14px;
-      input {
+      input[type="text"] {
         height: 50px;
         width: 400px;
+        margin-left: 18%;
         border-radius: 10px;
         border: none;
         font-size: 16px;
         box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
         -webkit-box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
         -moz-box-shadow: 1px 4px 19px -5px rgba(0,0,0,0.75);
-      &:focus {
+        &:focus {
         outline: none;
-      }
+        }
       }
       button {
-        position: absolute;
-        top: 5px;
-        left: 400px;
+        // position: absolute;
+        // top: 5px;
+        // left: 400px;
+        margin-top: 5px;
+        margin-left: -105px;
         width: 100px;
         height: 40px;
         background-color: #ff6682;
@@ -122,9 +126,51 @@
       }
     }
     h5 {
-      margin-top: 30px;
+      margin-top: 40px;
       text-align: center;
       color: #98969c;
+      font-size: 13px;
+    }
+  }
+}
+
+.dashboard {
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  .img-content {
+    position: relative;
+    .heartguy {
+      position: absolute;
+      left: 38%;
+      top: -3px;
+      z-index: 2;
+    }
+    .board {
+      position: absolute;
+      top: 190px;
+      left: 10%;
+      img {
+        height: 70%;
+        width: 90%;
+        border-radius: 10px;
+        z-index: 1;
+        border: 10px solid #e9e9eb;
+      }
+    }
+    .layinggirl {
+      position: absolute;
+      left: 70%;
+      top: 630px;
+      z-index: 2;
+    }
+    h4 {
+      position: absolute;
+      left: 40%;
+      top: 850px;
+      font-size: 18px;
+      color: #98969c;
+      font-family: 'Nunito', sans-serif;
     }
   }
 }
