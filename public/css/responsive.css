@@ -77,6 +77,9 @@
     .header .text-block .email-signup button {
         width: 120px;
     }
+    .dashboard {
+        height: 80vh;
+    }
     .dashboard .img-content .heartguy {
         top: 70px;
         left: 32%;
@@ -95,5 +98,55 @@
         left: 35%;
         font-size: 16px;
     }
-
+    .minds {
+        margin-top: 0;
+    }
+    .minds .listofminds {
+        width: 100%;
+    }
+    .minds .listofminds a li {
+        font-size: 16px;
+    }
+    .notecard {
+        height: 75vh;
+    }
+    .notecard .main-block h4 {
+        margin-top: 0;
+    }
+    .network {
+        height: 55vh;
+    }
+    .network .left img {
+        width: 350px;
+    } 
+    .network .right h5 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .network .right h1 {
+        width: 80%;
+        font-size: 2.2rem;
+    }
+    .network .right p {
+        font-size: 12px;
+    }
+    .intuitive .left h5 {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .intuitive .left h1 {
+        margin-left: 20px;
+        font-size: 2.2rem;
+        width: 80%;
+    }
+    .intuitive .left p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .intuitive .left a {
+        margin-left: 20px;
+    }
+    .intuitive .right img {
+        width: 350px;
+    }
 }
