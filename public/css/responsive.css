@@ -28,6 +28,9 @@
     .header .text-block .email-signup input[type="text"] {
         margin-left: 0;
     }
+    .dashboard {
+        height: 80vh;
+    }
     .dashboard .img-content .heartguy {
         left: 32%;
     }
@@ -42,7 +45,54 @@
         left: 35%;
         font-size: 16px;
     }
-
+    .minds {
+        margin-top: 0;
+    }
+    .minds .listofminds {
+        width: 93%;
+    }
+    .minds .listofminds a li {
+        font-size: 19px;
+    }
+    .notecard {
+        height: 80vh;
+    }
+    .network {
+        height: 100vh;
+    }
+    .network .left {
+        width: 100%;
+    }
+    .network .right {
+        width: 100%;
+        margin-left: 30px;
+    }
+    .intuitive {
+        height: 100vh;
+    }
+    .intuitive .right {
+        width: 100%;
+    }
+    .intuitive .left {
+        width: 100%;
+    }
+    .busy {
+        height: 110vh;
+    }
+    .busy .grid-block {
+        width: 100%;
+    }
+    .tech {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .tech img {
+        width: 85%;
+    }
+    .tech .iconbar .block3 {
+        margin-right: 0;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -78,7 +128,7 @@
         width: 120px;
     }
     .dashboard {
-        height: 80vh;
+        height: 53vh;
     }
     .dashboard .img-content .heartguy {
         top: 70px;
@@ -105,10 +155,10 @@
         width: 100%;
     }
     .minds .listofminds a li {
-        font-size: 16px;
+        font-size: 15px;
     }
     .notecard {
-        height: 75vh;
+        height: 53vh;
     }
     .notecard .main-block h4 {
         margin-top: 0;
@@ -130,6 +180,9 @@
     .network .right p {
         font-size: 12px;
     }
+    .intuitive {
+        height: 60vh;
+    }
     .intuitive .left h5 {
         margin-left: 20px;
         font-size: 14px;
@@ -148,5 +201,533 @@
     }
     .intuitive .right img {
         width: 350px;
+    }
+    .busy {
+        height: 65vh;
+    }
+    .busy .text-blocks p {
+        width: 82%;
+    }
+    .busy .grid-block .box1 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box1 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box1 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box2 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box2 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box2 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box3 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box3 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box3 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box4 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box4 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box4 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box5 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box5 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box5 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box6 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box6 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box6 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box7 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box7 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box7 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box8 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box8 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box8 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box9 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box9 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box9 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box10 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box10 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box10 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box11 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box11 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box11 .grid-text p {
+        font-size: 13px;
+    }
+    .busy .grid-block .box12 .grid-text img {
+        width: 30px;
+    }
+    .busy .grid-block .box12 .grid-text h1 {
+        font-size: 16px;
+    }
+    .busy .grid-block .box12 .grid-text p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        margin: 0;
+    }
+    #hamburger {
+        display: block;
+        position: relative;
+    }
+    .nav-list {
+        display: none;
+        width: 90%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .rightside{
+        display: none;
+    }
+    .nav-list.show {
+        position: absolute;
+        width: 20%;
+        top: 5%;
+        left: 75%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .header .text-block {
+        width: 85%;
+    }
+    .header .text-block h1 {
+        font-size: 3rem;
+    }
+    .header .text-block .email-signup input[type="text"] {
+        margin-left: 0;
+    }
+    .header .text-block .email-signup button {
+        width: 120px;
+    }
+    .dashboard {
+        height: 53vh;
+    }
+    .dashboard .img-content .heartguy {
+        top: 116px;
+        left: 32%;
+    }
+    .dashboard .img-content .heartguy img {
+        width: 128px;
+    }
+    .dashboard .img-content .layinggirl {
+        left: 63%;
+        top: 300px;
+    }
+    .dashboard .img-content .layinggirl img {
+        width: 150px;
+    }
+    .dashboard .img-content h4 {
+        top: 400px;
+        left: 30%;
+        font-size: 12px;
+    }
+    .minds {
+        margin-top: 0;
+    }
+    .minds .listofminds {
+        width: 100%;
+        height: 185px;
+    }
+    .minds .listofminds a li {
+        font-size: 8px;
+        padding: 12px;
+    }
+    .notecard {
+        height: 53vh;
+    }
+    .notecard .main-block h4 {
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .notecard .main-block h1 {
+        font-size: 27px;
+    }
+    .notecard .main-block .img-card img {
+        width: 100%;
+    }
+    .notecard .main-block h3 {
+        font-size: 10px;
+        width: 67%;
+    }
+    .network {
+        height: 55vh;
+    }
+    .network .left img {
+        width: 350px;
+    } 
+    .network .right h5 {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .network .right h1 {
+        width: 80%;
+        font-size: 2.2rem;
+    }
+    .network .right p {
+        font-size: 12px;
+    }
+    .intuitive {
+        height: 112vh;
+    }
+    .intuitive .left h5 {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .intuitive .left h1 {
+        margin-left: 20px;
+        font-size: 2.2rem;
+        width: 80%;
+    }
+    .intuitive .left p {
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .intuitive .left a {
+        margin-left: 20px;
+    }
+    .intuitive .right img {
+        width: 350px;
+    }
+    .busy {
+        height: 65vh;
+    }
+    .busy .text-blocks h4 {
+        font-size: 13px;
+    }
+    .busy .text-blocks h1 {
+        font-size: 2rem;
+    }
+    .busy .text-blocks p {
+        font-size: 14px;
+        width: 82%;
+    }
+    .busy .grid-block .box1 {
+        height: 120px;
+    }
+    .busy .grid-block .box1 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box1 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box1 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box2 {
+        height: 120px;
+    }
+    .busy .grid-block .box2 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box2 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box2 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box3 {
+        height: 120px;
+    }
+    .busy .grid-block .box3 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box3 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box3 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box4 {
+        height: 120px;
+    }
+    .busy .grid-block .box4 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box4 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box4 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box5 {
+        height: 120px;
+    }
+    .busy .grid-block .box5 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box5 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box5 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box6 {
+        height: 120px;
+    }
+    .busy .grid-block .box6 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box6 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box6 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box7 {
+        height: 120px;
+    }
+    .busy .grid-block .box7 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box7 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box7 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box8 {
+        height: 120px;
+    }
+    .busy .grid-block .box8 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box8 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box8 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box9 {
+        height: 120px;
+    }
+    .busy .grid-block .box9 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box9 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box9 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box10 {
+        height: 120px;
+    }
+    .busy .grid-block .box10 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box10 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box10 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box11 {
+        height: 120px;
+    }
+    .busy .grid-block .box11 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box11 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box11 .grid-text p {
+        font-size: 9px;
+    }
+    .busy .grid-block .box12 {
+        height: 120px;
+    }
+    .busy .grid-block .box12 .grid-text img {
+        width: 30px;
+        margin-left: 5px;
+        margin-bottom: 5px;
+    }
+    .busy .grid-block .box12 .grid-text h1 {
+        font-size: 16px;
+        margin-left: 5px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .busy .grid-block .box12 .grid-text p {
+        font-size: 9px;
+        margin-left: 0;
+        width: 100%;
+    }
+    .tech .iconbar .block1 {
+        width: 150px;
+        margin: 0;
+    }
+    .tech .iconbar .block1 .fab {
+        font-size: 1rem;
+    }
+    .tech .iconbar .block1 h3 {
+        font-size: 10px;
+    }
+    .tech .iconbar .block2 {
+        width: 150px;
+        margin: 0;
+    }
+    .tech .iconbar .block2 .fab {
+        font-size: 1rem;
+    }
+    .tech .iconbar .block2 h3 {
+        font-size: 10px;
+    }
+    .tech .iconbar .block3 {
+        width: 150px;
+    }
+    .tech .iconbar .block3 .fab {
+        font-size: 1rem;
+    }
+    .tech .iconbar .block3 h3 {
+        font-size: 10px;
+    }
+    .sub-footer .text-block h1 {
+        font-size: 2rem;
+    }
+    .sub-footer .text-block h4 {
+        width: 90%;
+        font-size: 18px;
+    }
+    .sub-footer .text-block .email-signup input[type="text"] {
+        width: 350px;
+    }
+    .footer .logo h5 {
+        font-size: 7px;
+    }
+    .footer .col1 .title {
+        font-size: 14px;
+    }
+    .footer .col1 p {
+        font-size: 10px;
+    }
+    .footer .col2 .title {
+        font-size: 14px;
+    }
+    .footer .col2 p {
+        font-size: 10px;
+    }
+    .footer .col3 .title {
+        font-size: 14px;
+    }
+    .footer .col3 p {
+        font-size: 10px;
+    }
+    .footer .col4 .title {
+        font-size: 14px;
+    }
+    .footer .col4 p {
+        font-size: 10px;
     }
 }
